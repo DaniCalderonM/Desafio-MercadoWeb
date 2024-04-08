@@ -3,8 +3,8 @@ const express = require('express');
 const exphbs = require('express-handlebars');
 // Instanciamos express
 const app = express();
-// Creamos la variable PORT para configurar dinámicamente el puerto en el que se ejecutará el servidor
-const PORT = process.env.PORT || 3000;
+// Creamos la variable PORT para configurar el puerto en el que se ejecutará el servidor
+const PORT = 3000;
 
 // Definimos handlebars como motor de plantillas
 app.set("view engine", "handlebars");

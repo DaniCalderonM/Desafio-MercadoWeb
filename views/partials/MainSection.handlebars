@@ -1,0 +1,11 @@
+
+<h1 class="mt-3">Bienvenido al mercado WEB, seleccione sus productos</h1>
+
+<div class="row mt-5">
+{{!--  Hacemos un each del arreglo productos para poder recorrerlo y obtener sus valores --}}
+{{#each productos}}
+{{!-- Llamado al parcial Producto y le pasamos el this, asignandolo a producto  --}}
+    {{> Producto producto = this}}
+
+{{/each}}
+</div>

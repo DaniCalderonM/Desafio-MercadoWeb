@@ -1,0 +1,12 @@
+{{!-- Aplicamos estilos css a la etiqueta img  --}}
+<style>
+    .tamaño{
+        width: 11rem;
+    }
+</style>
+
+{{!-- Creamos la plantilla para mostrar los productos con su nombre e imagen correspondiente --}}
+<div class="col-md-4 col-sm-6 ">
+    <h3 class="text-start">{{producto}}</h3>
+    <img class="tamaño producto" src="{{producto}}.png" alt="{{producto}}">
+</div>
